@@ -1,11 +1,13 @@
 @font-face {
-  font-family: "SpaceGrotesk";
-  src: local("SpaceGrotesk"),
-    url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-family: "Jakarta";
+  src: local("Jakarta"),
+    url("./assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
   margin: 0;
+  background-color: #FFF7F0;
+  font-family: "Jakarta";
 }
 
 code {
