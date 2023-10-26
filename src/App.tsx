@@ -1,4 +1,5 @@
 import Intro from "./components/Intro/Intro";
+import Services from "./components/Services/Services";
 import Header from "./layouts/Header/Header";
 
 const App: React.FC = () => {
@@ -6,6 +7,7 @@ const App: React.FC = () => {
     <main>
       <Header />
       <Intro/>
+      <Services/>
     </main>
   );
 };
