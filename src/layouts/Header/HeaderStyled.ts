@@ -12,15 +12,15 @@ padding-right: 16px;
 `;
 
 export const LinkCon = styled.div`
-padding-left: 27px;
-padding-right: 28px;
-padding-top: 8px;
-padding-bottom: 8px;
+  padding-left: 27px;
+  padding-right: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
-background-color: #000;
+  background-color: #030303;
 
-border: none;
-border-radius: 28px;
+  border: none;
+  border-radius: 28px;
 
   & > a {
     color: #fff7f0;

@@ -7,7 +7,7 @@ const Header:React.FC = () => {
       <SC.HeaderStyled>
         <LogoMobSvg />
         <SC.LinkCon>
-          <a href="https://portfolio-aleks-berd.netlify.app/">
+          <a href="https://portfolio-aleks-berd.netlify.app/" target="_blank" rel="noreferrer">
             free consultation
           </a>
         </SC.LinkCon>
