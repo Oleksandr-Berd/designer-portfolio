@@ -24,5 +24,8 @@ export const LinkCon = styled.div`
 
   & > a {
     color: #fff7f0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2;
   }
 `;
