@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 
 export const CommonCon = styled.div`
-  padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;

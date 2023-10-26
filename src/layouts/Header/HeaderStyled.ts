@@ -9,6 +9,7 @@ justify-content: space-between;
 padding-top: 16px;
 padding-left: 16px;
 padding-right: 16px;
+padding-bottom: 32px;
 `;
 
 export const LinkCon = styled.div`

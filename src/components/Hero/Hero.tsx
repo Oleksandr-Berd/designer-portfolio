@@ -9,7 +9,9 @@ const Hero = () => {
           <HeroMobSvg />
         </SC.ImageCon>
         <div>
-          <SC.Title>I’m Amy, and I’d love to work on your next project</SC.Title>
+          <SC.Title>
+            I’m Amy, and I’d love to work on your next project
+          </SC.Title>
           <SC.Paragraph>
             I love working with others to create beautiful design solutions.
             I’ve designed everything from brand illustrations to complete mobile
@@ -21,6 +23,7 @@ const Hero = () => {
             href="https://portfolio-aleks-berd.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            style={{ textDecoration: "none" }}
           >
             Free Consultation
           </a>
