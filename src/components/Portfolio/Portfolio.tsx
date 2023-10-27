@@ -1,4 +1,3 @@
-import Carousel from "react-bootstrap/Carousel";
 
 import * as SC from "./PortfolioStyled"
 
