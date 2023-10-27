@@ -19,3 +19,34 @@ export const InnerCon = styled.div`
 
   border-radius: 10px;
 `;
+
+export const Title = styled.h2`
+  margin-bottom: 24px;
+
+  font-weight: bold;
+  font-size: 26px;
+`;
+
+export const Paragraph = styled.p`
+  margin-bottom: 24px;
+
+  font-size: 16px;
+  line-height: 1.63;
+`;
+
+export const LinkCon = styled.div`
+display: inline-block;
+
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  background-color: #eb7565;
+
+  border-radius: 28px;
+
+  & > a {
+    color: #fff7f0;
+  }
+`;
