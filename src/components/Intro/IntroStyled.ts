@@ -12,6 +12,10 @@ export const CommonCon = styled.div`
     padding-left: 38px;
     padding-right: 38px;
   }
+
+  @media (min-width: 1440px){
+    padding-bottom: 80px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -24,6 +28,11 @@ export const Title = styled.h1`
   @media (min-width: 768px) {
     margin-bottom: 27px;
     font-size: 44px;
+  }
+
+  @media (min-width: 1440px){
+    font-size: 56px;
+    line-height: 1.25;
   }
 `;
 
@@ -41,5 +50,10 @@ export const Paragraph = styled.p`
 
     font-size: 18px;
     line-height: 1.56;
+  }
+  @media (min-width: 1440px){
+display: inline-block;
+
+    width: 730px;
   }
 `;

@@ -22,6 +22,13 @@ export const HeaderStyled = styled.header`
       height: 64px;
     }
   }
+
+  @media (min-width: 1440px){
+    padding-top: 34px;
+    padding-left: 165px;
+    padding-right: 164px;
+    padding-bottom: 66px;
+  }
 `;
 
 export const LinkCon = styled.div`
@@ -35,12 +42,12 @@ export const LinkCon = styled.div`
   border: none;
   border-radius: 28px;
 
-@media (min-width: 768px){
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 45px;
-  padding-right: 45px;
-}
+  @media (min-width: 768px) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
 
   & > a {
     color: #fff7f0;
@@ -48,9 +55,19 @@ export const LinkCon = styled.div`
     font-size: 14px;
     line-height: 2;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
       font-size: 16px;
       line-height: 1.63;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #755cde;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
     }
   }
 `;
