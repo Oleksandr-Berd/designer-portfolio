@@ -12,23 +12,23 @@ const Portfolio = () => {
   return (
     <SC.CommonCon>
       <SC.Title>My Work</SC.Title>
-      <Carousel data-bs-theme="dark">
-        <Carousel.Item>
+      <SC.CarouselStyled data-bs-theme="dark">
+        <SC.Item>
           <img className="d-block w-100" src={portfolio1} alt="First slide" />
-        </Carousel.Item>
-        <Carousel.Item>
+        </SC.Item>
+        <SC.Item>
           <img className="d-block w-100" src={portfolio2} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
+        </SC.Item>
+        <SC.Item>
           <img className="d-block w-100" src={portfolio3} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
+        </SC.Item>
+        <SC.Item>
           <img className="d-block w-100" src={portfolio4} alt="forth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
+        </SC.Item>
+        <SC.Item>
           <img className="d-block w-100" src={portfolio5} alt="fifth slide" />
-        </Carousel.Item>
-      </Carousel>
+        </SC.Item>
+      </SC.CarouselStyled>
     </SC.CommonCon>
   );
 };

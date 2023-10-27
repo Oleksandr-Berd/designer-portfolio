@@ -112,4 +112,14 @@ export const LinkCon = styled.div`
       line-height: 1.75;
     }
   }
+
+  @media (min-width: 1440px) {
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #f6a560;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+  }
 `;
