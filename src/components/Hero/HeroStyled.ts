@@ -14,6 +14,14 @@ export const CommonCon = styled.div`
 
     padding-left: 0;
   }
+
+  @media (min-width: 1440px) {
+    justify-content: space-between;
+
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 88px;
+  }
 `;
 
 export const ImageCon = styled.div`
@@ -42,6 +50,15 @@ export const Title = styled.h2`
     font-size: 32px;
     line-height: 1.25;
   }
+
+  @media (min-width: 1440px) {
+    width: 500px;
+
+    margin-bottom: 34px;
+
+    font-size: 40px;
+    line-height: 1.28;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -57,6 +74,12 @@ export const Paragraph = styled.p`
     font-size: 18px;
     line-height: 1.56;
   }
+
+  @media (min-width: 1440px) {
+    margin-bottom: 32px;
+
+    width: 500px;
+  }
 `;
 
 export const LinkCon = styled.div`
@@ -71,7 +94,7 @@ export const LinkCon = styled.div`
 
   border-radius: 28px;
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 14px;
@@ -84,7 +107,7 @@ export const LinkCon = styled.div`
     font-size: 14px;
     line-height: 2;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
       font-size: 16px;
       line-height: 1.75;
     }

@@ -4,16 +4,19 @@ import * as SC from "./HeroStyled";
 
 import { ReactComponent as HeroMobSvg } from "../../assets/images/hero_mob.svg";
 import { ReactComponent as HeroTabletSvg } from "../../assets/images/hero_image_tablet.svg";
+import { ReactComponent as HeroDeskSvg } from "../../assets/images/hero_desk.svg";
+
 
 const Hero = () => {
   const isTablet = useMediaQuery("(min-width:768px)");
+  const isDesktop = useMediaQuery("(min-width:1440px)");
 
   return (
     <>
       {isTablet ? (
         <SC.CommonCon>
           <SC.ImageCon>
-            <HeroTabletSvg />
+            {isDesktop ? <HeroDeskSvg /> : <HeroTabletSvg />}
           </SC.ImageCon>
           <SC.ContentCon>
             <SC.Title>
