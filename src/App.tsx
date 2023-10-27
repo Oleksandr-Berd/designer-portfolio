@@ -14,6 +14,7 @@ const App: React.FC = () => {
       <Hero/>
       <Portfolio/>
       <Contact/>
+      <Header/>
     </main>
   );
 };
